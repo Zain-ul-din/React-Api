@@ -1,0 +1,35 @@
+.Card{
+    display:inline-flex;
+    width:200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:1px solid lightcoral;
+    margin: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 25%;
+}
+.Card img{
+    width:100px;
+    height: 100px;
+}
+.Card h1{
+    display: inline-block;
+
+}
+.Search{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+.Search input{
+    outline: none;
+    padding-left: 10px;
+    height:30px;
+    width: 200px;
+}
